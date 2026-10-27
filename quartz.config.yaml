@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: legal.tann.f5.si
+  baseUrl: https://legal.tann.f5.si
   ignorePatterns:
     - private
     - templates
