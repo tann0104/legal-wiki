@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: tann0104.github.io/legal-wiki
+  baseUrl: legal.tann.f5.si
   ignorePatterns:
     - private
     - templates
@@ -209,7 +209,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -223,7 +223,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
